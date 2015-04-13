@@ -1,0 +1,51 @@
+\documentclass[10pt,conference,compsocconf,letterpaper]{IEEEtran}
+
+
+\usepackage{cite}
+\usepackage[caption=false]{subfig}
+\ifCLASSINFOpdf
+    \usepackage[pdftex]{graphicx}
+\else
+	\usepackage[dvips]{graphicx}
+\fi
+\usepackage[cmex10]{amsmath}
+\usepackage{caption}
+\usepackage{algpseudocode}
+\usepackage{array}
+\usepackage{verbatim}
+\usepackage{mdwmath}
+\usepackage{mdwtab}
+\usepackage{eqparbox}
+\usepackage{fixltx2e}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{color}
+\usepackage{makecell}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}%(for №«Ан)
+
+\hyphenation{op-tical net-works semi-conduc-tor  significant}
+
+\IEEEoverridecommandlockouts
+\IEEEpubid{\makebox[\columnwidth]{978-1-4799-4657-0/14/\$31.00~\copyright~2014 IEEE \hfill}
+\hspace{\columnsep}\makebox[\columnwidth]{ }}
+\begin{document}
+
+
+\title{title}
+
+
+\maketitle
+
+\input{abstract.tex}
+\input{intro.tex}
+
+\section*{Acknowledgment}
+\addcontentsline{toc}{section}{Acknowledgment}
+Limin Sun is corresponding author.
+
+\bibliographystyle{IEEEtran}
+\bibliography{bib/note}
+\end{document}
+
+
